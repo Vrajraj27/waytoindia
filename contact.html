@@ -30,13 +30,16 @@
         height: 100px;
         font-family: Arial, Helvetica, sans-serif\verdana;
     }
-    .nav li:hover{
+    .nav li a:hover{
         color: red;
         border-top: 3px solid orange;
-        font-weight: bold;
         cursor: pointer;
+        padding-top: 28px;
 
     }
+    .nav li a{
+        text-decoration: none;
+        color: grey;}
     body{
         margin: -19px;
         background-color: grey;
@@ -91,13 +94,13 @@
     <div class="div1">
     <img class="img1" src="image/logo.png" alt="logo">
     <ul id="nav" class="nav">
-        <li>Home</li>
-        <li>Why Us</li>
-        <li>Services</li>
-        <li>FAQs</li>
-        <li>Testimonials</li>
-        <li>Opportunities</li>
-        <li>Contact Us</li>        
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about-us.html">Why Us</a></li>
+        <li><a href="/services-offered.html">Services</a></li>
+        <li><a href="/faq.html">FAQs</a></li>
+        <li><a href="/testimonial.html">Testimonials</a></li>
+        <li><a href="/opportunities.html">Opportunities</a></li>
+        <li><a href="/" style="color: red; font-weight: bold; border-top: 3px solid orange;padding-top: 28px;">Contact Us</a></li>            
     </ul>
     </div>
     </div>
